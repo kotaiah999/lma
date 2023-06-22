@@ -1,0 +1,121 @@
+.Banner2-container {
+    margin-top: 6rem;
+}
+
+.card-conatiner {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 5rem;
+    /* height: 50vh; */
+    align-items: center;
+    /* background-color: red; */
+}
+
+.card-container-text {
+    /* background-color: #b28787; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card-title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #112047;
+}
+
+.card-desc {
+    /* background-color: blue; */
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+    color: #a9a9a9;
+    padding: 5px;
+}
+
+.card-footer {
+    margin-top: 18px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner2-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 175px;
+    height: 48px;
+    background: rgba(17, 32, 71, 0.11);
+    border-radius: 60px;
+    cursor: pointer;
+    border: none;
+    color: rgba(17, 32, 71, 1);
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.card-one {
+    width: 280px;
+    text-align: left;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    /* align-items: flex-start; */
+    padding: 1.5rem;
+}
+
+.card-one:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.icon-conatiner {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f6f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-conatiner:hover {
+    background-color: #112047;
+    fill: red;
+}
+
+[alt="bagicon"].hover {
+    fill: #fff
+}
+
+.icon-container:hover img {
+    filter: invert(100%);
+}
+
+.card-footer-title {
+    font-size: 1.2rem;
+    color: #112047;
+    font-weight: 700;
+}
+
+.card-footer-desc {
+    line-height: 1.5;
+    color: #a9a9a9;
+}
+@media (min-width: 300px) and (max-width: 700px) {
+    .card-footer {
+        flex-direction: column;
+    }
+}

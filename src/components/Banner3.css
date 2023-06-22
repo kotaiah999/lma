@@ -1,0 +1,206 @@
+.BannerThree-main-container img {
+    position: relative;
+    height: 66rem;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 6rem;
+}
+
+.bg2 {
+    position: absolute !important;
+    top: 125rem !important;
+    width: 313px !important;
+    z-index: 3 !important;
+    right: 0rem !important;
+    object-fit: contain;
+}
+
+.bg3 {
+    position: absolute !important;
+    top: 126.3rem !important;
+    width: 313px !important;
+    z-index: 2 !important;
+    right: 1rem !important;
+    object-fit: contain;
+}
+
+.Banner3-content {
+    position: absolute;
+    top: 115rem;
+    right: 2rem;
+    z-index: 1;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 2rem;
+    align-items: flex-start;
+    /* background-color: rgb(79, 75, 75); */
+    height: 100%;
+    width: 50%;
+}
+
+.content-one .text {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 7px;
+}
+
+.content-one p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 3px;
+    color: #ADBDCC;
+    text-align: left;
+}
+
+.content-two {
+    display: flex;
+    /* background-color: rgb(203, 181, 181); */
+    height: 100%;
+    width: 50%;
+}
+
+.Banner3-btn-one {
+    padding: 10px 26px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 60px;
+}
+
+.Banner3-btn-two {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    gap: 10px;
+    width: 197px;
+    height: 55px;
+    background: linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%);
+    border-radius: 70px;
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+    .content-one .text {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .content-one p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .Banner3-btn-two {
+        padding: 7px 16px;
+        font-size: 14px;
+        width: 180px;
+        height: 36px;
+        font-weight: 500;
+    }
+
+    .Banner3-btn-one {
+        padding: 7px 16px;
+        font-size: 14px;
+        width: 180px;
+        height: 36px;
+        font-weight: 500;
+    }
+
+    .BannerThree-main-container img {
+        height: 47rem;
+    }
+
+    .Banner3-content {
+        top: 89rem;
+    }
+    .content-one .text {
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+        letter-spacing: 0;
+    }
+    .bg2 {
+        top: 102rem !important;
+    }
+
+    .bg3 {
+        top: 103.3rem !important;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+    .Banner3-content {
+        top: 172rem;
+        right: 5rem;
+    }
+    .Banner3-content {
+        flex-direction: column;
+    }
+    .content-img {
+        width: 242px;
+        height: 349px;
+    }
+    .content-one {
+        padding-left: 13rem;
+        padding-right: 2rem;
+        height: 100%;
+        width: 90%;
+        gap: 15px;
+    }
+    .content-one .text {
+        font-weight: 700;
+        font-size: 34px;
+        letter-spacing: 0px;
+        line-height: 43px;
+    }
+    .content-one p{
+        font-size: 11px;
+    line-height: 20px;
+    }
+    .content-img {
+        width: 304px;
+        height: 304px;
+    }
+    .bg2 {
+        top: 173rem !important;
+    }
+    .bg3 {
+        top: 174.3rem !important;
+    }
+    .BannerThree-main-container img {
+        height: 74rem;
+    }
+}

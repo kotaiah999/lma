@@ -1,0 +1,196 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(122, 122, 224);
+}
+
+.banner-card-section-one {
+    display: flex;
+    /* padding: 3%; */
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(225, 143, 129); */
+
+}
+
+.span-one {
+    background-image: linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%),
+        linear-gradient(0deg, #112047, #112047),
+        linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.span-two {
+    font-weight: 300;
+}
+
+.span-three {
+    background-image: linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%),
+        linear-gradient(0deg, #112047, #112047),
+        linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.banner-card-section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.section-card-one {
+    font-size: 2rem;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.section-card-two {
+    padding-left: 5rem;
+    height: 50%;
+    gap: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: rgb(143, 223, 228); */
+}
+
+.heading {
+    /* font-family: 'Wix Madefor Display'; */
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 107px;
+}
+
+.banner-text {
+    margin-right: 11px;
+    box-sizing: border-box;
+    width: 300px;
+    font-size: 13px;
+    font-size: 13px;
+    color: #777D88;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.signup-btn {
+    border: none;
+    height: 55px;
+    width: 197px;
+    left: 0px;
+    top: 155px;
+    border-radius: 70px;
+    padding: 20px 10px 20px 10px;
+    background: linear-gradient(146.66deg, #02E09E 0%, #66B6FA 100%);
+    cursor: pointer;
+}
+
+.icons {
+    position: relative;
+}
+
+.vector1 {
+    padding-left: 10px;
+}
+
+.vector2 {
+    position: absolute;
+    left: 0%;
+    right: 27.94%;
+    top: 27.33%;
+    bottom: 0.61%;
+}
+
+.card-inner {
+    justify-content: space-around;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bannerImg1 {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 699x) {
+    .banner-container{
+        flex-direction: column !important;
+        height: 600px;
+    }
+    .heading {
+        font-size: 44px !important;
+        line-height: 37px !important;
+    }
+    .banner-card-section-one {
+        width: 100% !important;
+    }
+    .banner-card-section-two{
+        width: 100% !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 1400px) {
+    .banner-card-section-one {
+        width: 50%;
+    }
+
+    .banner-container {
+        height: 500px;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .section-card-two {
+        padding-left: 5rem !important;
+        gap: 3%;
+        /* justify-content: space-between; */
+    }
+
+    .banner-text {
+        font-size: 14px;
+    }
+    
+    .signup-btn {
+        padding: 7px 10px;
+        font-size: 14px;
+        width: 124px;
+        height: 34px;
+        font-weight: 500;    
+    }
+}
+
+/* @media (min-width: 800px) and (max-width: 1080px) {
+    .banner-text{
+        width: 180px;
+        font-size: 11px;
+        line-height: 20px;    }
+}
+@media (min-width: 500px) and (max-width: 799x) {
+    .banner-text {
+        width: 163px;
+        line-height: 19px;
+        font-size: 10px;
+    }
+} */
